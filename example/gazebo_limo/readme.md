@@ -27,6 +27,12 @@ Step 2. Launch Neupan Controller
 roslaunch neupan_ros neupan_gazebo_limo.launch
 ```
 
+or you can run the `neupan_ros neupan_gazebo_limo_noloop.launch`, where the robot will stop when arriving at the target. You can use RVIZ button to set new goals.
+
+```bash
+roslaunch neupan_ros neupan_gazebo_limo_noloop.launch
+```
+
 or run the following script to launch the environment and the neupan controller at once
 
 ```bash
